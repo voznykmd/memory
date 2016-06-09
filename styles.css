@@ -1,0 +1,22 @@
+div#memory_board{
+	background:#F0F0F0;
+	box-shadow: 0 0 10px rgba(0,0,0,0.2);
+	width:710px;
+	height:710px;
+	padding:14px;
+	margin:0px auto;
+}
+
+div#memory_board > div{
+	background: no-repeat;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	width:16%;
+	height:16%;
+	float:left;
+	margin:10px;
+	padding:20px;
+	cursor:pointer;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
