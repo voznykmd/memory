@@ -1,8 +1,8 @@
 div#memory_board{
 	background:#F0F0F0;
 	box-shadow: 0 0 10px rgba(0,0,0,0.2);
-	width:690px;
-	height:690px;
+	width:670px;
+	height:670px;
 	padding:14px;
 	margin:0px auto;
 }
@@ -19,4 +19,26 @@ div#memory_board > div{
   text-indent: 100%;
   white-space: nowrap;
   overflow: hidden;
+}
+
+h1 {
+	color: #009C75;
+	font-family: 'Raleway',sans-serif;
+	font-size: 62px;
+	font-weight: 800;
+	line-height: 72px;
+	margin: 0 0 10px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+p {
+	color: #fff;
+	background-color: #009C75;
+	font-family: 'Raleway',sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 32px;
+	margin: 0 0 24px;
+	text-align: center;
 }
